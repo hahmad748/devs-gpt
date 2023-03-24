@@ -1,0 +1,37 @@
+{
+    "name": "devsfort/chat-gpt",
+    "description": "ChatGPT is a powerful chatbot plugin for Laravel that integrates with OpenAI's state-of-the-art GPT language model. With ChatGPT, you can quickly and easily add sophisticated natural language processing capabilities to your Laravel applications, enabling users to interact with your software in a more intuitive and conversational way. Whether you're building a chatbot for customer support, a virtual assistant for your website, or any other kind of conversational application, ChatGPT makes it easy to create engaging, personalized experiences for your users. With its advanced machine learning algorithms, ChatGPT can understand natural language input, generate human-like responses, and even learn from user interactions to improve its performance over time. Designed to be easy to use and highly customizable, ChatGPT integrates seamlessly with Laravel and can be easily installed via Packagist. With ChatGPT, you can take your Laravel applications to the next level and create powerful, conversational experiences that delight and engage your users.",
+    "keywords": ["laravel", "chatgpt", "openai","gpt-4","gpt-3","AI","php","artificial intelligence"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Haseeb Ahmad",
+            "email": "hahmad748@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3||^7.4||^8.0||^8.1||^8.2",
+        "laravel/framework": "^7.0||^8.0||^9.0||^10.0",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devsfort\\ChatGpt\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Devsfort\\ChatGpt\\ChatGptServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
